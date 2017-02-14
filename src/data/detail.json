@@ -1,0 +1,47 @@
+{
+    "isLoad": false,
+    "detailListMsg": {
+        "JavaScript": "精通JavaScript,并能运用JavaScript进行DOM编程;且有良好的文档撰写能力",
+        "HTML5": "熟练掌握HTML5和CSS3,语义合理,思路清晰,能够还原视觉设计",
+        "jQuery": "熟练使用jQuery,通过jQuery完成所需要的交互",
+        "AngularJS": "熟悉AngularJS,了解AngularJS2.0,根据项目需求,高效规范的编写代码",
+        "React": "熟悉React,并能很好地配合团队,且有一定的独立开发能力",
+        "ReactNative": "熟悉React Native,可以实现移动端的快速开发",
+        "Vue": "了解Vue,如果公司需求,有信心一周内上手,融入工作",
+        "Weex": "熟悉阿里已经公开的API"
+    },
+    "detailIconMsg": [
+        {
+            "cls": "iconfont icon-js",
+            "name": "JavaScript"
+        },
+        {
+            "cls": "iconfont icon-html5",
+            "name": "HTML5"
+        },
+        {
+            "cls": "iconfont icon-jquery",
+            "name": "jQuery"
+        },
+        {
+            "cls": "iconfont icon-angular",
+            "name": "AngularJS"
+        },
+        {
+            "cls": "iconfont icon-react",
+            "name": "React"
+        },
+        {
+            "cls": "iconfont icon-react",
+            "name": "ReactNative"
+        },
+        {
+            "cls": "iconfont icon-oGDwRZJ01",
+            "name": "Vue"
+        },
+        {
+            "cls": "",
+            "name": "Weex"
+        }
+    ]
+}

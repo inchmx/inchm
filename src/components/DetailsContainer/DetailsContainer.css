@@ -1,0 +1,29 @@
+.detail{
+    position: absolute;
+    top: 15%;
+    left: 10%;
+    width: 80%;
+    height: 80%;
+    min-width: 500px;
+    min-height: 450px;
+    box-sizing: border-box;
+}
+
+p{
+    padding: 0;
+    margin: 0;
+}
+
+.detailIcon{
+    color: white;
+    height: 10%;
+    text-align: center;
+}
+
+.listCell{
+    height: 95%;
+}
+
+.detailIcon > div > p{
+    cursor: pointer;
+}

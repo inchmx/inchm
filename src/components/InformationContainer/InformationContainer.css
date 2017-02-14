@@ -1,0 +1,208 @@
+.info {
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    top: 15%;
+    left: 10%;
+    border-radius: 5px;
+    overflow: hidden;
+    min-width: 500px;
+    min-height: 450px;
+    opacity: 0;
+    animation: info_anim 3s linear forwards;
+}
+
+@keyframes info_anim{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.infoLeft{
+    width: 50%;
+    display: inline-block;
+}
+
+/*姓名&求职意向*/
+.info_name{
+    opacity: 1;
+    color: white;
+    padding-left: 10%;
+    padding-top: 5%;
+}
+
+.info_name :nth-child(1){
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.info_name > span{
+    display: block;
+}
+
+.info_name :nth-child(3){
+    padding-left: 10%;
+}
+
+.info_left_lineRow{
+    width: 80%;
+    height: 1px;
+    border-bottom: .5px dashed rgba(255, 255, 255, .8);
+    margin: 20px auto;
+    min-width: 150px;
+}
+
+/*教育背景&奖项荣誉&工作经验*/
+.info_left_bottom{
+    padding-left: 10%;
+    color: white;
+}
+
+.info_edu{
+    padding: 3% 0;
+}
+
+.info_edu > span{
+    padding-right: 3%;
+}
+
+.info_honor{
+    padding: 3% 0;
+}
+
+.info_honor > span{
+    margin-right: 3%;
+}
+
+.info_exp{
+    padding: 3% 0;
+}
+
+.info_exp > span{
+    margin-right: 3%;
+}
+
+/*联系方式*/
+.infoRight{
+    float: right;
+    color: white;
+    padding: 5% 10%;
+    position: relative;
+    min-width: 150px;
+}
+
+.info_right_main > span{
+    display: block;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    position: relative;
+}
+
+.info_right_main > span > i{
+    position: absolute;
+    top: 1%;
+    left: -8%;
+}
+
+.info_right_lineRow{
+    width: 50%;
+    height: 1px;
+    border-bottom: .5px dashed rgba(255, 255, 255, .8);
+    position: absolute;
+    bottom: 5%;
+    left: 30%;
+}
+
+.info_lineColumn{
+    width: 1px;
+    height: 60%;
+    border-left: .5px dashed rgba(255, 255, 255, .8);
+    position: absolute;
+    top: 20%;
+    left: 10%;
+}
+
+
+/*边框划线*/
+.crossed_top{
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    width: 100%;
+    border-top: 1.5px dashed rgba(255, 255, 255, .8);
+    min-width: 500px;
+    animation: crossed_top 2s linear forwards;
+}
+
+@keyframes crossed_top{
+    0%{
+        left: 100%;
+    }
+    100%{
+        left: 0%;
+        opacity: .8;
+    }
+}
+
+.crossed_right{
+    position: absolute;
+    top: 100%;
+    right: 0%;
+    height: 100%;
+    border-right: 1.5px dashed rgba(255, 255, 255, .8);
+    min-height: 450px;
+    animation: crossed_right 2s linear forwards;
+}
+
+@keyframes crossed_right{
+    0%{
+        top: 100%;
+    }
+    100%{
+        top: 0%;
+        opacity: .8;
+    }
+}
+
+.crossed_bottom{
+    position: absolute;
+    bottom: 0%;
+    right: 100%;
+    width: 100%;
+    border-bottom: 1.5px dashed rgba(255, 255, 255, .8);
+    min-width: 500px;
+    animation: crossed_bottom 2s linear forwards;
+}
+
+@keyframes crossed_bottom{
+    0%{
+        right: 100%;
+    }
+    100%{
+        right: 0%;
+        opacity: .8;
+    }
+}
+
+.crossed_left{
+    position: absolute;
+    bottom: 100%;
+    left: 0%;
+    height: 100%;
+    border-left: 1.5px dashed rgba(255, 255, 255, .8);
+    min-height: 450px;
+    animation: crossed_left 2s linear forwards;
+}
+
+@keyframes crossed_left{
+    0%{
+        bottom: 100%;
+    }
+    100%{
+        bottom: 0%;
+        opacity: .8;
+    }
+}
